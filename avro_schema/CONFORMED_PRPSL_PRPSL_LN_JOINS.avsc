@@ -1,0 +1,571 @@
+{
+  "type": "record",
+  "name": "UNIFIED_JOIN_FOR_PROPOSAL_LINE",
+  "namespace": "org.apache.nifi.custom.joined",
+  "doc" : "Intermediate unified AVRO schema for PRPSL_LN conformance",
+  "fields": [
+    {
+        "name": "_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PROPOSAL_LINE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PROPOSAL_LINE_ROWTIME",
+        "type": "long"
+    },
+    {
+        "name": "JOINED_ROWTIME",
+        "type": "long"
+    },
+    {
+        "name": "PARENT_PROPOSAL_LINE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PRPSL_LN_KEY_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PRPSL_LN_QTR_KEY_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PROPOSAL_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "FLIGHT_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "OTLT_EXT_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "SELLING_ROTATION_KEY",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "PKG_SLLNG_RTTN_TYP_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PRPSL_LN_COST_TYP_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PKG_PRD_VRSN_RLS_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "SELLING_ROTATION_CATEGORY_KEY",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "ROTATION_PERIOD_RELEASE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "ROTATION_PERIOD_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "UNIT_RATE",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "INVENTORY_TYPE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "INVENTORY_TYPE_CD",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "SALES_INVENTORY_TYPE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "RATE_CARD_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "EQV_RTS_IND",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "AGENCY_COMMISSION",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "CURRENCY_KEY",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "RATE_CARD_TYPE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PROPOSAL_CREATED_DT",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "TELEVISION_PROPOSAL_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "AD_UNIT_SCHD_ALOCTN_TYP_ID",
+        "type" : [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "TELEVISION_PROPOSAL_LINE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "TV_UNIT_LENGTH_QTY",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "COST_PER_UNIT_QTY",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "INIT_COST_PER_UNIT_QTY",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "MAX_AD_UNITS_PER_WK_QTY",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "PRPSL_INVNTRY_TYP_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "PRPSL_INVNTRY_TYP_UNIT_LENGTH_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "RT_ADJMT_FACTOR",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "UNIT_LENGTH_ID_1",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "UNIT_LENGTH_QTY_1",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+        {
+        "name": "UNIT_LENGTH_ID_2",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "UNIT_LENGTH_QTY_2",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "RATE_CARD_RELEASE_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "RELEASE_DT",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "CE_CURRENCY_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_EXCHG_RATE",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_EFF_DATE",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_END_DATE",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_CURRENT_RATE",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_LAST_UPDATED_BY",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_LAST_UPDATE_DATE",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "CE_TO_CURRENCY",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "CDC_KEY",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "UNIT_QTY_SUM",
+        "type": [
+            "null",
+            "double"
+        ],
+        "default": null
+    },
+    {
+        "name": "TOTAL_COUNT",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+
+    {
+        "name": "TLVSN_LN_ASGMNT_CNSTRNT_ID",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "APPLY_WEEKLY_ALOCTN_IND",
+        "type": [
+            "null",
+            "long"
+        ],
+        "default": null
+    },
+    {
+        "name": "MON_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "TUE_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "WED_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "THU_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "FRI_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SAT_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SUN_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },    
+
+    {
+        "name": "SRC_KEY_VAL",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SRC_CDC_OPER_NM",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SRC_COMMIT_DT_UTC",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "TRG_CRT_DT_PART_UTC",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SRC_SCHEMA_NM",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "LAST_MODIFIED_BY",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "LAST_MODIFIED_DT",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    }
+  ]
+}

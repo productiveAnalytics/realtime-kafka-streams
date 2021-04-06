@@ -1,0 +1,159 @@
+{
+  "type": "record",
+  "name": "CONFORMED_CON_COMMON_FLGHT_RNG",
+  "namespace": "org.apache.nifi.custom.conformed",
+  "fields": [
+    {
+        "name": "FLGHT_RNG_KEY",
+        "type": "string"
+    },  
+    {
+        "name": "FLGHT_RNG_ID",
+        "type": "long"
+    },
+    {
+        "name": "FLGHT_KEY",
+        "type": "string"
+    }, 
+    {
+        "name": "FLGHT_ID",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "TM_ZN_KEY",
+        "type": "string",
+        "default": "SK_100__PK_ET"
+    }, 
+    {
+        "name": "VOA_CLSS_TXT",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "FLGHT_RNG_TY_CD",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "FLGHT_RNG_DESC",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+        {
+        "name": "FLGHT_RNG_START_TMSTMP",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "FLGHT_RNG_END_TMSTMP",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "CAL_TY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "CALENDAR_ID",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "YR_NUM",
+        "type": [
+            "null",
+            "int"
+        ]
+    },
+    {
+        "name": "QTR_NUM",
+        "type": [
+            "null",
+            "int"
+        ]
+    },
+    {
+        "name": "MTH_NUM",
+        "type": [
+            "null",
+            "int"
+        ]
+    },
+    {
+        "name": "WK_NUM",
+        "type": [
+            "null",
+            "int"
+        ]
+    },
+    {
+        "name": "DAY_NUM",
+        "type": [
+            "null",
+            "int"
+        ]
+    },
+    {
+        "name": "LAST_MODFD_DT",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "LAST_MODFD_BY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SRC_COMMIT_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "SRC_PUBSHD_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "DELETD_FRM_SRC_IND",
+        "type": "string",
+        "default": "N"
+    },
+    {
+        "name": "TRANS_STRT_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "BI_SRC_SYS_KEY",
+        "type": "string"
+    },
+    {
+        "name": "CNFRMNC_UPTD_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "CNFRMNC_UPTD_PROCS_NM",
+        "type": "string"
+    }
+  ]
+}

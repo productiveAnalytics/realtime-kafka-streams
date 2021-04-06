@@ -1,0 +1,69 @@
+{
+  "type": "record",
+  "name": "TV_ASSIGNMENT_DAYS_AGG",
+  "namespace": "org.apache.nifi.custom.aggregated",
+  "doc" : "AVRO schema for aggregated days for TV Assignment Day Constraint",
+  "fields": [
+    {
+        "name": "MON_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "TUE_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "WED_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "THU_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "FRI_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SAT_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "SUN_IND",
+        "type": [
+            "null",
+            "string"
+        ],
+        "default": null
+    },
+    {
+        "name": "total_days_set",
+        "type": "int",
+        "default": 0
+    }
+  ]
+}

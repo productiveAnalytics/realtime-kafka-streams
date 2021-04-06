@@ -1,0 +1,3 @@
+{
+  "schema": "{\"type\":\"record\",\"name\":\"LNDCDC_ADS_INVNTRY_UNIT_LENGTH\",\"namespace\":\"org.LNDCDC_ADS_INVNTRY.UNIT_LENGTH.apache.nifi\",\"fields\":[{\"name\":\"UNIT_LENGTH_ID\",\"type\":[\"null\",\"long\"]},{\"name\":\"LAST_MODIFIED_BY\",\"type\":[\"null\",\"string\"]},{\"name\":\"LAST_MODIFIED_DT\",\"type\":[\"null\",\"string\"]},{\"name\":\"UNIT_LENGTH_QTY\",\"type\":[\"null\",\"long\"]},{\"name\":\"CNCRNCY_VRSN\",\"type\":[\"null\",\"long\"]},{\"name\":\"SRC_KEY_VAL\",\"type\":\"string\"},{\"name\":\"SRC_CDC_OPER_NM\",\"type\":\"string\"},{\"name\":\"SRC_COMMIT_DT_UTC\",\"type\":\"string\"},{\"name\":\"TRG_CRT_DT_PART_UTC\",\"type\":\"string\"},{\"name\":\"SRC_SCHEMA_NM\",\"type\":\"string\"}]}"
+}

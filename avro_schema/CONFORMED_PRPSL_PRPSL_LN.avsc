@@ -1,0 +1,376 @@
+{
+  "type": "record",
+  "name": "CONFORMED_CON_PRPSL_PRPSL_LN",
+  "namespace": "org.apache.nifi.custom.conformed",
+  "doc" : "AVRO schema for conformed PRPSL_LN (PK: _ID/PRPSL_LN_KEY)",
+  "fields": [
+    {
+        "name": "_ID",
+        "type": "string"
+    },
+    {
+        "name": "PRPSL_LN_KEY",
+        "type": "string"
+    },  
+    {
+        "name": "PRPSL_LN_ID",
+        "type": "long"
+    },
+    {
+        "name": "PRPSL_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PRNT_PRPSL_LN_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PRIOR_SRC_PRPSL_LN_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PRPSL_REQ_UNIT_ID",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "PRPSL_LN_SEQ_NBR",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "FLGHT_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "FLGHT_RNG_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "OUTLT_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PRPSL_INVNTRY_TY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "INVNTRY_AVAIL_SPOT_TY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "INVNTRY_TY_LGTH_QTY",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "INVNTRY_TY_EQV_PCT",
+        "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "SR_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SR_PKG_TY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SR_CAT_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SR_PER_RELS_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PKG_PER_VERS_RELS_ID",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "SR_PKG_CNSTRNT_TY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "RTCD_ID",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "RTCD_RELS_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PRPSL_LN_COST_TY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "PRPSL_EQV_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "EQV_PCT",
+        "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "UNIT_RT",
+        "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "INIT_UNIT_RT",
+        "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "UNIT_LGTH_QTY",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "REQD_UNIT_QTY",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "EQV_UNIT_QTY",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "COMSN_RT",
+         "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "GROSS_PRPSD_AMT",
+        "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "NET_PRPSD_AMT",
+        "type": [
+            "null",
+            "double"
+        ]
+    },
+    {
+        "name": "CRNCY_KEY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "TM_ZN_KEY",
+        "type": "string",
+        "default": "SK_100__PK_ET"
+    },
+    {
+        "name": "MAX_UNIT_PER_WK_QTY",
+        "type": [
+            "null",
+            "long"
+        ]
+    },
+    {
+        "name": "MON_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "TUE_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "WED_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "THU_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "FRI_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SAT_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SUN_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "WKLY_ALLOCTN_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "DR_PLUS_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "ROS_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "CHRRY_PCKD_EPSD_IND",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "LAST_MODFD_DT",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "LAST_MODFD_BY",
+        "type": [
+            "null",
+            "string"
+        ]
+    },
+    {
+        "name": "SRC_COMMIT_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "SRC_PUBSHD_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "DELETD_FRM_SRC_IND",
+        "type": "string",
+        "default": "N"
+    },
+    {
+        "name": "TRANS_STRT_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "BI_SRC_SYS_KEY",
+        "type": "string"
+    },
+    {
+        "name": "CNFRMNC_UPTD_TMSTMP",
+        "type": "string"
+    },
+    {
+        "name": "CNFRMNC_UPTD_PROCS_NM",
+        "type": "string"
+    }
+  ]
+}
